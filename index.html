@@ -10,16 +10,17 @@
         <!--NAVBAR-->
         <nav align="center">
             <h3>
-                <a href="#parcours"><font face="arial" size="4" color="white">Parcours</font></a>&nbsp;&nbsp;&nbsp;&nbsp;
-                <a href="#competence"><font face="arial" size="4" color="white">Compétences</font></a>&nbsp;&nbsp;&nbsp;&nbsp;
-                <a href="#about"><font face="arial" size="4" color="white">Contacts</font></a>&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="#about"><font face="arial" size="4" color="white">Accueil</font></a>&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="#work"><font face="arial" size="4" color="white">Parcours</font></a>&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="#resume"><font face="arial" size="4" color="white">Compétences</font></a>&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="#contact"><font face="arial" size="4" color="white">Contacts</font></a>&nbsp;&nbsp;&nbsp;&nbsp;
             </h3>
         </nav>
         <br>
     </header>
     
         <!--Presentation-->
-    <section align="center">
+    <section id="about" align="center">
         <img src="assets/img/profile_pic.png" alt="Cherif Mohamed Abraham" width="340">
         <h2><font face="Cambria" size="6" color="white">CHERIF Mohamed Abraham</font></h2>
         <h3><font face="Cambria" color="white" size="5">Etudiant en Developpement Web à GoMyCode</font></h3>
@@ -43,10 +44,10 @@
     <br><br>
 
     <!--Parcours-->
-    <section id="parcours" align="center">
+    <section id="work" align="center">
         <h2><font face="Cambria" color="white" size="6">Parcours</font></h2>
 
-        <!--TABLEAU-->
+        <!--AJOUT DU TABLEAU-->
         <table align="center" width="800" cellpadding="5">
             <thead>
               <tr>
@@ -72,20 +73,35 @@
     <br><br>
 
     <!--Experience-->
-    <section id="competence" align="center">
+    <section id="resume" align="center">
         <h2><font face="Cambria" color="white"size="6">Compétences</font></h2>
-        <p><font face="Cambria" color="white">Programmation HTML/CSS, Javascript : Débutant</font></p>
-        <p><font face="Cambria" color="white">Maîtrise Photoshop, Illustrator : Débutant</font></p>
-        <p><font face="Cambria" color="white">Maîtrise Excel, Access, Word, et PowerPoint : Intermédiaire</font></p>
+        <p><font face="arial" color="white">Programmation HTML/CSS, Javascript : Débutant</font></p>
+        <p><font face="arial" color="white">Maîtrise Photoshop, Illustrator : Débutant</font></p>
+        <p><font face="arial" color="white">Maîtrise Excel, Access, Word, et PowerPoint : Intermédiaire</font></p>
     </section>
     <br><br>
 
     <!--Contacts-->
-    <section id="about" align="center">
-        <h2><font face="Cambria" color="white" size="6">Contacts</font></h2>
-        <p><font face="Cambria" color="white">Mail : cherifmohamedabraham@gmail.com</font></p>
-        <p><font face="Cambria" color="white">Numero: +2250505900008</font></p>
+    <section id="contact" align="center">
+        <h2><font face="Cambria" color="white"size="6">Contacts</font></h2>
+        <h4><font face="Cambria" color="white"size="4">Faisons connaissance :)</font></h4>
+        <form class="form">
+            <div class="name">
+              <label for="name"><font face="Cambria" color="white"size="4">Entrez votre nom: </font></label>
+              <input type="text" name="name"/>&nbsp;&nbsp;&nbsp;
+              <label for="email"><font face="Cambria" color="white"size="4">Email:</font></label>
+              <input type="email" name="email"/>
+                <br><br>
+            </div>
+          </form>
         <br><br>
     </section>
+
+    <!--Le footer-->
+    <footer align="center">
+        <h4><font face="Cambria" color="white"size="5">Contactez moi</font></h4>
+        <p><font face="Cambria" color="white">Mail : cherifmohamedabraham@gmail.com</font></p>
+        <p><font face="Cambria" color="white">Numero : +2250505900008</font></p>
+    </footer>
 </body>
 </html>
