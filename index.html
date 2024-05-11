@@ -5,48 +5,86 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mon Portfolio</title>
 </head>
-<body bgcolor="2D2E37" link="FFE4E4" >
+<body bgcolor="2D2E37">
     <header>
+        <!--NAVBAR-->
         <nav align="center">
             <h3>
-                <font size="6" color="white">
-                    <b>Mon portfolio</b>
-                </font>
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <font size="5">
-                    <a href="#parcours">Mon parcours</a>&nbsp;&nbsp;&nbsp;&nbsp;
-                    <a href="#experience">Experience</a>&nbsp;&nbsp;&nbsp;&nbsp;
-                    <a href="#about">Contacts</a>&nbsp;&nbsp;&nbsp;&nbsp;
-                </font>
+                <a href="#parcours"><font face="arial" size="4" color="white">Parcours</font></a>&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="#competence"><font face="arial" size="4" color="white">Compétences</font></a>&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="#about"><font face="arial" size="4" color="white">Contacts</font></a>&nbsp;&nbsp;&nbsp;&nbsp;
             </h3>
         </nav>
-        <br><br><br><br>
+        <br>
     </header>
-    <section>
-        <div align="center">
-            <img src="assets/img/profile_pic4.png" alt="Cherif Mohamed Abraham" width="300">
-            <h2>
-                <font size="6" color="white">Je suis CHERIF Mohamed Abraham</font>
-            </h2>
-            <h3>
-                <font color="white" size="5">Etudiant en Developpement Web a Gomycode</font>
-            </h3>
-            <button>
-                <a href="assets/doc/CV de CHERIF Mohamed Abraham.pdf" download="CV de CHERIF Mohamed Abraham">Mon CV</a>
-            </button>
-            <button>
-                Mon LinkedId<link rel="linkedin" href="www.linkedin.com/in/mohamed-abraham-cherif-1528b9307">
-            </button>
-        </div>
+    
+        <!--Presentation-->
+    <section align="center">
+        <img src="assets/img/profile_pic.png" alt="Cherif Mohamed Abraham" width="340">
+        <h2><font face="Cambria" size="6" color="white">CHERIF Mohamed Abraham</font></h2>
+        <h3><font face="Cambria" color="white" size="5">Etudiant en Developpement Web à GoMyCode</font></h3>
+
+        <!--Lien CV-->
+        <a href="assets/doc/CV de CHERIF Mohamed Abraham.pdf" download="CV de CHERIF Mohamed Abraham">
+            <button style="font-size: 18px; color: white; background-color: #6A6A6A; border-radius: 20px; padding: 20px; margin-right: 20px; border: none;">Mon CV</button>
+        </a>
+            
+        <!--Lien LinkedIn-->
+        <a href="https://www.linkedin.com/in/mohamed-abraham-cherif-1528b9307" alt="LinkedIn" target="_blank"> 
+            <button style="font-size: 18px; color: white; background-color: #6A6A6A; border-radius: 20px; padding: 20px; margin-right: 20px; border: none;">Mon LinkedIn</button>
+        </a>
+
+        <!--Lien Github-->
+        <a href="https://www.github.com/MirinkaU1" alt="Github" target="_blank"> 
+            <button style="font-size: 18px; color: white; background-color: #6A6A6A; border-radius: 20px; padding: 20px; border: none;">Mon Github</button>
+        </a>
     </section>
     <br><br>
+
+    <!--Parcours-->
     <section id="parcours" align="center">
-        <h2>
-            <font color="white">Mon parcours</font>
-        </h2>
+        <h2><font face="Cambria" color="white" size="6">Parcours</font></h2>
 
+        <!--TABLEAU-->
+        <table align="center" width="800" cellpadding="5">
+            <thead>
+              <tr>
+                <th><font face="Cambria" color="white" size="5">BAC</font></th>
+                <th><font face="Cambria" color="white" size="5">Ingenierie Informatique</font></th>
+                <th><font face="Cambria" color="white" size="5">Developpement Web</font></th>
+              </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><font face="arial"color="white" size="4">College Adventiste Bke</font></td>
+                    <td><font face="arial"color="white" size="4">ENSIT - Ecole Nouvelle Supérieure <br> d'Ingénieurs et de Technologie</font></td>
+                    <td><font face="arial"color="white" size="4">GoMyCode</font></td>
+                </tr>
+                <tr>
+                    <td><font face="arial"color="white" size="4">2021</font></td>
+                    <td><font face="arial"color="white" size="4">2021-2023</font></td>
+                    <td><font face="arial"color="white" size="4">2024</font></td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <br><br>
 
+    <!--Experience-->
+    <section id="competence" align="center">
+        <h2><font face="Cambria" color="white"size="6">Compétences</font></h2>
+        <p><font face="Cambria" color="white">Programmation HTML/CSS, Javascript : Débutant</font></p>
+        <p><font face="Cambria" color="white">Maîtrise Photoshop, Illustrator : Débutant</font></p>
+        <p><font face="Cambria" color="white">Maîtrise Excel, Access, Word, et PowerPoint : Intermédiaire</font></p>
+    </section>
+    <br><br>
+
+    <!--Contacts-->
+    <section id="about" align="center">
+        <h2><font face="Cambria" color="white" size="6">Contacts</font></h2>
+        <p><font face="Cambria" color="white">Mail : cherifmohamedabraham@gmail.com</font></p>
+        <p><font face="Cambria" color="white">Numero: +2250505900008</font></p>
+        <br><br>
     </section>
 </body>
 </html>
